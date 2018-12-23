@@ -9,6 +9,12 @@ import "assets/demo/demo.css";
 
 import indexRoutes from "routes/index.jsx";
 
+
+// new imports start
+import { Provider } from "react-redux";
+import configureStore from "store";
+// new imports stop
+
 const hist = createBrowserHistory();
 
 ReactDOM.render(
